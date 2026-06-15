@@ -16,7 +16,7 @@
     </ul>
     <hr>
     <h2>📖Story Books Selection</h2>
-    <table border="1">
+    <table border="1" cellpadding="10" cellspacing="0" >
         <tr>
         <th><b> Book Cover </b></th>
         <th><b> Book Title & Details </b></th>
@@ -25,12 +25,76 @@
         <tr>
             <td> <img width="80" height="135" src="75003.jpg" alt="TSI"></td>
             <td><b> The Secret Island </b>
-            <br> Autho: Enid Blyton <br> <br>
+            <br> Author: Enid Blyton <br> <br>
             An exciting adventure story about four children spending their holidays on a hidden island.</td>
             <td> Rs.850 </td>
-            <td> In Stock </td>
+            <td> <mark> In Stock </mark></td>
+        </tr>
+        <tr>
+            <td><img src="13572653.jpg" alt="Book 1" width="80" height="135"></td>
+            <td><b> Madol Doova </b>
+            <br> Author: Martin Wickamasinghe <br> <br>
+            A alcssic Sinhalese novel translated into English, showcasing the lives of teenage boys on an isolated island. </td>
+            <td> Rs.600 </td>
+            <td> <mark> In Stock </mark></td>
         </tr>
 
     </table>
+<br><br>
+
+
+    <a href="#">🔺Back To Top</a>
+    <hr>
+    <h2>📝School Textbooks</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0" >
+        <tr>
+            <th><b>Subject</b></th>
+            <th><b>Grade</b></th>
+            <th><b>Medium</b></th>
+            <th><b>Price</b></th>
+            <th> </th>
+        </tr>
+        <tr>
+            <td>Information & Communication Technology(ICT)</td>
+            <td>Grade 10/11</td>
+            <td>English Medium</td>
+            <td>Rs. 450.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>Grade 11</td>
+            <td>English Medium</td>
+            <td>Rs. 520.00</td>
+            <td><del> Out of Stock</del></td>
+        </tr>
+    </table>
+    <br><br>
+<a href="#">🔺Back To Top</a>
+<hr>
+<fieldset>
+    <legend>Order Details</legend>
+    <form>
+        <label for="a">Student Admission No:</label> <br>
+        <input type="text" name="name" id="1" placeholder="e.g.ST-1234"> <br> <br>
+        <label for="s">Select Book to Reserve:</label> <br> 
+        <select name="name" id="2">
+            <option value="The Secret Island(Rs. 850.00)">The Secret Island(Rs. 850.00)</option>
+            <option value="The Secret Island(Rs. 1000.00)">The Secret Island(Rs. 1000.00)</option>
+        </select> <br> <br>
+        <label for="s">Preferred Collection Date:</label> <br>
+        <input type="datetime-local" name="time" id="5"> <br><br>
+        <label for="w">Special Notes/ Instructions:</label> <br>
+        <pre><textarea name="name" id="4" placeholder="Any specific requirements..."></textarea></pre>
+        <br> 
+        <input type="submit" value="Submit Reservation">
+        <input type="reset" value="Reset Form">
+
+
+    </form>
+</fieldset>
+<br>
+&copy;2026 Apex School Bookshop Management System.
 </body>
 </html>
